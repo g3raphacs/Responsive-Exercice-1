@@ -25,6 +25,7 @@ body{
     color       :   var(--Col_Gray);
     text-align  :   center;
     margin: 0px;
+    background-color: var(--Col_White);
 }
 /* Test---------------------------------------  */
 section{border:2px solid red;background-color: rgb(255, 174, 181);}
@@ -41,12 +42,19 @@ section>section> *{border: 1px solid rgb(4, 0, 255); background-color: rgb(196, 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
+/* Main  */
+#mainbox>header h1{margin:0px 0px 23px 0px;}
+#mainbox>header p{margin: 0px 0px 90px 0px; max-width: 736px;}
+p{padding: 0px 15px; margin-top: 0px;}
+img{margin-top: 15px;}
+h2{margin:25px 0px 1rem 0px}
 
 /* RESPONSIVE  */
 /* XL ___________________________________________________________________________________________*/
-.container{     max-width: 1170px;  margin: 0px auto;   }
+.container{     max-width: 1170px;  margin: 0px auto; padding: 40px 0px;   }
 .flexElement {
     flex: 0 23%;
     height: 290px;
@@ -57,15 +65,14 @@ section>section> *{border: 1px solid rgb(4, 0, 255); background-color: rgb(196, 
     .container{  margin: 0px 5vw;   }
     .flexElement {
         flex: 0 48%;
+        margin-bottom: 3vh;
     }
 }
 
 /* M ___________________________________________________________________________________________*/
 @media (max-width: 991.98px) {
     .container{  margin: 0px 3vw;   }
-    .flexElement {
-        flex: 0 48%;
-    }
+
 }
 
 /* S ___________________________________________________________________________________________*/
@@ -75,13 +82,12 @@ section>section> *{border: 1px solid rgb(4, 0, 255); background-color: rgb(196, 
         flex: 0 100%;
     }
 }
+
 /* XS ___________________________________________________________________________________________*/
 
 @media (max-width: 575.98px) {
     .container{  margin: 0px 1vw;   }
-    .flexElement {
-        flex: 0 100%;
-    }
+
 }
 
 
