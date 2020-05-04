@@ -27,10 +27,6 @@ body{
     margin: 0px;
     background-color: var(--Col_White);
 }
-/* Test---------------------------------------  */
-section{border:2px solid red;background-color: rgb(255, 174, 181);}
-section>section> *{border: 1px solid rgb(4, 0, 255); background-color: rgb(196, 220, 255);}
-/* Test---------------------------------------  */
 
 /* Flex  */
 .flex       {
@@ -53,6 +49,7 @@ img{margin-top: 15px;}
 h2{margin:25px 0px 1rem 0px}
 
 /* RESPONSIVE  */
+
 /* XL ___________________________________________________________________________________________*/
 .container{     max-width: 1170px;  margin: 0px auto; padding: 40px 0px;   }
 .flexElement {
@@ -84,7 +81,6 @@ h2{margin:25px 0px 1rem 0px}
 }
 
 /* XS ___________________________________________________________________________________________*/
-
 @media (max-width: 575.98px) {
     .container{  margin: 0px 1vw;   }
 
