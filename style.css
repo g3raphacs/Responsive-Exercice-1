@@ -22,8 +22,38 @@ body{
     font-family :   'Rubik', sans-serif;
     font-weight :   normal;
     line-height :   1.88rem;
+    color       :   var(--Col_Gray);
+    text-align  :   center;
 }
+/* Test---------------------------------------  */
+section{border:2px solid red;background-color: rgb(255, 174, 181);}
+section>section> *{border: 1px solid rgb(4, 0, 255); background-color: rgb(196, 220, 255);}
+/* Test---------------------------------------  */
 
 /* Containers  */
-.container{     max-width: 1170px;  margin: auto 0px;   }
+.container{     max-width: 1170px;  margin: 0px 19vw;   }
 
+/* Flex  */
+.flex       {   display: flex   }
+
+/* RESPONSIVE  */
+
+/* XSmall */
+@media (max-width: 575.98px) {
+    
+}
+
+/* Small  */
+@media (max-width: 767.98px) {
+
+}
+
+/* Medium  */
+@media (max-width: 991.98px) {
+
+}
+
+/* Large  */
+@media (max-width: 1199.98px) {
+
+}
