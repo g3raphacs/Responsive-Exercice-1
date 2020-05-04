@@ -1,0 +1,10 @@
+/* Color Values  */
+:root{
+    --Col_White : white;
+    --Col_Black : #2E2E2E;
+    --Col_Gray  :   #5E5E5E
+}
+
+.TXTblack   {   color:  var(--Col_Black);   }
+.TXTgray    {   color:  var(--Col_Gray);    }
+.shadow     {   box-shadow: 0px 7px 27px rgba(0, 0, 0, 0.1);}
